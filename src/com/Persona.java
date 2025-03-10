@@ -111,23 +111,29 @@ public class Persona {
                 "Altura: " + altura + " metros\n";
     }
 
-	public Integer getEdad() {
-		return null;
-	}
+    public String getNombre() {
+        return nombre;
+    }
 
-	public Object getNombre() {
-		return null;
-	}
+    public int getEdad() {
+        return edad;
+    }
 
-	public Integer getSexo() {
-		return null;
-	}
+    public char getSexo() {
+        return sexo;
+    }
 
-	public Integer getPeso() {
-		return null;
-	}
+    public double getPeso() {
+        return peso;
+    }
 
-	public Integer getAltura() {
-		return null;
-	}
+    public double getAltura() {
+        return altura;
+    }
+
+    public String getDNI() {
+        return DNI;
+    }
+
 }
+
